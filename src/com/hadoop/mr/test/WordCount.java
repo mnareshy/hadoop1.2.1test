@@ -76,6 +76,7 @@ public class WordCount {
 		FileInputFormat.addInputPath(job, new Path(myArgs[0]));
 		FileOutputFormat.setOutputPath(job, new Path(myArgs[1]));
 		
+		job.setJarByClass(WordCount.class);
 		job.waitForCompletion(true);
 	}
 
