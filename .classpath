@@ -47,6 +47,6 @@
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/slf4j-api-1.4.3.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/slf4j-log4j12-1.4.3.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/xmlenc-0.52.jar"/>
-	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/hadoop-core-1.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/hadoop-core-1.2.1.jar" sourcepath="/home/sairam/work/backup/hadoop-1.2.1"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
