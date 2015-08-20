@@ -3,9 +3,8 @@ package com.hadoop.mr.simple.wordcount.test;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapred.Mapper;
-import org.apache.hadoop.mrunit.MapDriver;
-import org.apache.hadoop.mrunit.MapReduceDriver;
+import org.apache.hadoop.mrunit.mapreduce.MapDriver;
+import org.apache.hadoop.mrunit.mapreduce.MapReduceDriver;
 import org.apache.hadoop.mrunit.mapreduce.ReduceDriver;
 import org.junit.Before;
 
