@@ -61,6 +61,6 @@
 	<classpathentry kind="lib" path="/home/sairam/work/backup/apache-mrunit-1.1.0-hadoop1-bin/lib/powermock-module-junit4-1.5.1.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/backup/apache-mrunit-1.1.0-hadoop1-bin/lib/powermock-module-junit4-common-1.5.1.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/backup/apache-mrunit-1.1.0-hadoop1-bin/lib/powermock-reflect-1.5.1.jar"/>
-	<classpathentry kind="lib" path="/home/sairam/work/backup/mrunit-1.1.0-hadoop1.jar"/>
+	<classpathentry kind="lib" path="/home/sairam/work/backup/mrunit-1.1.0-hadoop1.jar" sourcepath="/home/sairam/work/backup/apache-mrunit-1.1.0-hadoop1-bin"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

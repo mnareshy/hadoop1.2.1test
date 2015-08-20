@@ -30,7 +30,7 @@ public class WordCountNonInner {
 		job.setOutputValueClass(LongWritable.class);
 
 		job.setMapperClass(WCMapper.class);
-		job.setReducerClass(Reducer.class);
+		job.setReducerClass(WCReducer.class);
 
 		job.setInputFormatClass(org.apache.hadoop.mapreduce.lib.input.TextInputFormat.class);
 		job.setOutputFormatClass(TextOutputFormat.class);
