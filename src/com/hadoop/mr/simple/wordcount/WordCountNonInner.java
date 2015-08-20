@@ -29,7 +29,7 @@ public class WordCountNonInner {
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(LongWritable.class);
 
-		job.setMapperClass(Mapper.class);
+		job.setMapperClass(WCMapper.class);
 		job.setReducerClass(Reducer.class);
 
 		job.setInputFormatClass(org.apache.hadoop.mapreduce.lib.input.TextInputFormat.class);

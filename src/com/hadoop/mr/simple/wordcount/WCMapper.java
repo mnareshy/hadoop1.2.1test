@@ -4,8 +4,9 @@ import java.io.IOException;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
 
-public class Mapper extends org.apache.hadoop.mapreduce.Mapper<LongWritable,Text , Text, LongWritable>{
+public class WCMapper extends Mapper<LongWritable,Text , Text, LongWritable>{
 
 	protected void map(LongWritable keyIn, Text vaueIn, Context context) throws IOException, InterruptedException{
 
