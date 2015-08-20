@@ -1,4 +1,4 @@
-package com.hadoop.mr.test;
+package com.hadoop.mr.simple.wordcount;
 
 import java.io.IOException;
 
