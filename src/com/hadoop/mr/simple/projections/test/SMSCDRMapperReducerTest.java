@@ -52,9 +52,12 @@ public class SMSCDRMapperReducerTest {
 	  public void testMapReduce() throws IOException {
 	    mapReduceDriver.withInput(new LongWritable(), new Text(
 	              "655209;1;796764372490213;804422938115889;6"));
-	    List<IntWritable> values = new ArrayList<IntWritable>();
+	    mapReduceDriver.withInput(new LongWritable(), new Text(
+	              "655209;1;796764372490213;804422938115889;6"));
+	    /*List<IntWritable> values = new ArrayList<IntWritable>();
 	    values.add(new IntWritable(1));
 	    values.add(new IntWritable(1));
+	    */
 	    mapReduceDriver.withOutput(new Text("6"), new IntWritable(2));
 	    mapReduceDriver.runTest();
 	  }

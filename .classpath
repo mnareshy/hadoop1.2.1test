@@ -41,7 +41,6 @@
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/junit-4.5.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/kfs-0.2.2.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/mockito-all-1.8.5.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/oro-2.0.8.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/servlet-api-2.5-20081211.jar"/>
 	<classpathentry kind="lib" path="/home/sairam/work/bigdata/hadoop-1.2.1/lib/slf4j-api-1.4.3.jar"/>
