@@ -64,7 +64,20 @@ public class WordCountTest {
 	}
 	
 	
+	@Test
+	public void testWCMapReducer() throws IOException
+	{
+		
+		mapReduceDriver.withInput(new LongWritable(),new Text( "  INCOMPATIBLE    CHANGES"));
+		mapReduceDriver.withInput(new LongWritable(),new Text( "  INCOMPATIBLE    CHANGES"));
+		mapReduceDriver.withInput(new LongWritable(),new Text( "  INCOMPATIBLE    CHANGES"));
+		mapReduceDriver.withInput(new LongWritable(),new Text( "  INCOMPATIBLE    CHANGES"));
+		mapReduceDriver.withOutput(new Text("CHANGES"), new LongWritable(4));
+		mapReduceDriver.withOutput(new Text("INCOMPATIBLE"), new LongWritable(4));
 
+		mapReduceDriver.runTest();
+
+	}
 
 
 
