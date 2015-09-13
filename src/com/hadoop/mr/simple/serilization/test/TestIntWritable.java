@@ -30,7 +30,7 @@ public class TestIntWritable {
 		intWritable.set(143);
 		byte[] bytes = new byte[4];  	
 		
-		byte[] bytes1 = IntSerilize.deserilize(intWritable, bytes);
+		bytes = IntSerilize.deserilize(intWritable, bytes);
 		
 		assertEquals(bytes.length, 4);
 		//assertEquals(intWritable.get(), 143);
